@@ -1,0 +1,47 @@
+@charset "utf-8";
+#wrapper {
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center 35%;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+.work {
+	font-family: ""Source Sans Pro", Helvetica, sans-serif;";
+	font-style: normal;
+}
+#main #share .a2a_kit.a2a_kit_size_32.a2a_default_style {
+	width: 252px;
+}
+
+
+@media (max-width:767px){
+#wrapper {
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center -12%;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+}
+#copyright {
+	display: none;
+}
+
+
+}
+
+@media (min-width:768px) and (max-width:1023px){
+#wrapper {
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center 17%;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+}
+
+
+}
